@@ -25,9 +25,9 @@
         <modules.root.dir>${basedir}</modules.root.dir>
         <jdk.version>1.7</jdk.version>
 
-        <scm.connection>scm:git:https://code.google.com/p/motech</scm.connection>
-        <scm.developerConnection>scm:git:https://code.google.com/p/motech</scm.developerConnection>
-        <scm.url>https://code.google.com/p/motech</scm.url>
+        <scm.connection>scm:git:https://github.com/USM-RCG/motech-server-icappr.git</scm.connection>
+        <scm.developerConnection>scm:git:https://github.com/USM-RCG/motech-server-icappr.git</scm.developerConnection>
+        <scm.url>https://github.com/USM-RCG/motech-server-icappr</scm.url>
     </properties>
 
     <dependencies>
@@ -1551,15 +1551,9 @@
         <repository>
             <id>motech.nexus</id>
             <name>MOTECH Releases Repository</name>
-            <url>http://nexus.motechproject.org/content/repositories/releases</url>
+            <url>http://nexus.motechproject.org/content/repositories/usm-rcg</url>
             <uniqueVersion>false</uniqueVersion>
         </repository>
-        <snapshotRepository>
-            <id>motech.nexus</id>
-            <name>MOTECH Snapshots Repository</name>
-            <url>http://nexus.motechproject.org/content/repositories/snapshots</url>
-            <uniqueVersion>false</uniqueVersion>
-        </snapshotRepository>
     </distributionManagement>
 
     <reporting>
@@ -1653,6 +1647,6 @@
         <connection>${scm.connection}</connection>
         <developerConnection>${scm.developerConnection}</developerConnection>
         <url>${scm.url}</url>
-        <tag>0.17.X</tag>
+        <tag>0.17.X-icappr</tag>
     </scm>
 </project>
